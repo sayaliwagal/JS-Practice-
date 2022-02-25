@@ -1,0 +1,42 @@
+.flex-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+
+}
+.flex-1 img {
+    margin: 20px;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.8);
+}
+
+
+/* challenge 3 */
+.container-3 ,.container-4 ,.container-5 {
+    border: 1px solid #000000;
+}
+.flex-box-rps img {
+    margin: 10px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.7);
+}
+.flex-box-rps img:hover {
+   box-shadow: 0px 10px 50px rgba(37,50,233,1);
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background-image: url('https://wallpaperaccess.com/full/2434392.png');
+    color: #ffffff;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat ;
+}
+.flex-blackjack-row-1 div {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 500px;
+}
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
